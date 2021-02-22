@@ -79,6 +79,9 @@ body {
   .location {
     flex-direction: column;
   }
+  .temp {
+    width: 80%;
+  }
   .info {
     flex-direction: column;
     margin: 20px;
