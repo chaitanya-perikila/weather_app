@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/ico" href="./icon.png"/>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="location">
+        <div class="time-zone">
+            <h3 class="tz">Time Zone :</h3>
+            <h1 class="location-timezone">TimeZone</h1>
+        </div>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temp">
+        <div class="temp-select">
+            <h2 class="temp-degree">34</h2>
+            <span class="primary">°F</span>
+            <span class="secondary"> /°C</span>
+        </div>
+        <div class="temp-description">Mostly Cloudy</div>
+    </div>
+    <div class ="info">
+        <div class="humidity">Humidity: <span>40</span>%</div>
+        <div class="wind">Wind Speed:  <span>4</span> kmph</div>
+        <div class="pressure">Pressure: <span>1000</span> mb</div>
+    </div>
+    <script src="./skycons.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
